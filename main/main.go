@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
+	"Demo/factory"
 	"math/rand"
-	"sort"
 	"sync"
 	"time"
 )
@@ -31,9 +30,5 @@ type element struct {
 	b int
 }
 func main() {
-a:=[]int{2,1,4,9,3}
-sort.Ints(a)
-
-fmt.Println(a)
-
+	factory.Json2Struct()
 	}

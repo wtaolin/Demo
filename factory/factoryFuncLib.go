@@ -1,7 +1,6 @@
 package factory
 
 import (
-	"container/heap"
 	"errors"
 	"fmt"
 	"io/ioutil"
