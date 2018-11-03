@@ -49,3 +49,17 @@ func TestRmoveElement(t *testing.T)  {
 		t.FailNow()
 	}
 }
+
+func TestGcd(t *testing.T) {
+	input:=map[int]int{2:4,1:10,12:18}
+	result:=[]int{2,1,6}
+	j:=0
+	for i,v:=range input {
+		actul:=Gcd(i,v)
+		if result[j]!=actul {
+			t.FailNow()
+		}
+		j++
+	}
+
+}

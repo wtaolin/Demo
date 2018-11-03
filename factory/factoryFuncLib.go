@@ -200,6 +200,7 @@ func PractiseWriteRead() {
 }
 
 type maskEvent uint64
+
 func maskCnt(mask maskEvent) (uint32, error) {
 	if mask <= 0 {
 		return 0, errors.New("mask is invalid")
@@ -216,26 +217,26 @@ func maskCnt(mask maskEvent) (uint32, error) {
 	return cnt, nil
 }
 func RemoveElement(nums []int, val int) int {
-	cnt:=0
-	for i:=0;i<len(nums) ;i++  {
-		if nums[i]==val {
-			nums=append(nums[:i],nums[i:]...)
+	cnt := 0
+	for i := 0; i < len(nums); i++ {
+		if nums[i] == val {
+			nums = append(nums[:i], nums[i:]...)
 			i--
 			cnt++
 		}
 	}
-	return len(nums)-cnt
+	return len(nums) - cnt
 }
 
 func longestPalindrome(s string) string {
-	maxLenOfStr:=0
-	longestPliStr:=""
-	for i:=0;i<len(s) ;i++  {
-		for j:=i+1;j<len(s) ;j++  {
+	maxLenOfStr := 0
+	longestPliStr := ""
+	for i := 0; i < len(s); i++ {
+		for j := i + 1; j < len(s); j++ {
 			if IsPalindrome(s[i:j]) {
-				if maxLenOfStr<=j-i {
-					maxLenOfStr=j-i
-					longestPliStr=s[i:j]
+				if maxLenOfStr <= j-i {
+					maxLenOfStr = j - i
+					longestPliStr = s[i:j]
 				}
 			}
 		}
@@ -251,3 +252,28 @@ func longestPalindrome(s string) string {
 
 // copied from golang doc
 // mininum setup of integer min heap
+
+//leetcode 858 mirrorReflection
+func MirrorReflection(p int, q int) int {
+	g:=Gcd(q,p)
+	p/=g
+	p%=2
+	q/=g
+	q%=2
+	if p==1&&q==1 {
+		return 1
+	}
+	if p==1 {
+		return 0
+	}else {
+		return 2
+	}
+}
+
+//最大公约数
+func Gcd(a,b int)int{
+	if a==0 {
+		return b
+	}
+	return Gcd(b%a,a)
+}

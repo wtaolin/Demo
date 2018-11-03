@@ -2,6 +2,7 @@ package main
 
 import (
 	"Demo/factory"
+	"fmt"
 	"math/rand"
 	"sync"
 	"time"
@@ -30,5 +31,8 @@ type element struct {
 	b int
 }
 func main() {
-	factory.Json2Struct()
+//	factory.Json2Struct()
+	q:=3
+	p:=2
+	fmt.Println(factory.MirrorReflection(q,p))
 	}
