@@ -16,17 +16,17 @@ type Address struct {
 }
 
 type link struct {
-	name string `json:"name"`
-	url  string `json:"url"`
+	Name string `json:"name"`
+	Url  string `json:"url"`
 }
 
 type Context struct {
 	Name        string  `json:"name"`
-	url         string  `json:"url"`
-	page        int     `json:"page"`
-	isNonProfit bool    `json:"isNonProfit"`
-	address     Address `json:"address"`
-	links       []link
+	Url         string  `json:"url"`
+	Page        int     `json:"page"`
+	IsNonProfit bool    `json:"isNonProfit"`
+	Address     Address `json:"address"`
+	Links       []link
 }
 
 //Json2Struct

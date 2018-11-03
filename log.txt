@@ -1,7 +1,7 @@
 
-2018/11/02 00:02:23 prepare to write log
+2018/11/03 10:02:42 prepare to write log
 
-2018/11/02 00:02:23 read context is ﻿{
+2018/11/03 10:02:43 read context is ﻿{
     "name": "BeJson",
     "url": "http://www.bejson.com",
     "page": 88,
@@ -27,7 +27,7 @@
     ]
 }
 
-2018/11/02 00:02:23 read context is ﻿{
+2018/11/03 10:02:43 read context is ﻿{
     "name": "BeJson",
     "url": "http://www.bejson.com",
     "page": 88,
@@ -53,4 +53,4 @@
     ]
 }
 
-2018/11/02 00:02:23 Context is &factory.Context{Name:"BeJson", url:"", page:0, isNonProfit:false, address:factory.Address{Street:"", City:"", County:""}, links:[]factory.link(nil)}
+2018/11/03 10:02:43 Context is &factory.Context{Name:"BeJson", Url:"http://www.bejson.com", Page:88, IsNonProfit:true, Address:factory.Address{Street:"科技园路.", City:"江苏苏州", County:""}, Links:[]factory.link{factory.link{Name:"Google", Url:"http://www.google.com"}, factory.link{Name:"Baidu", Url:"http://www.baidu.com"}, factory.link{Name:"SoSo", Url:"http://www.SoSo.com"}}}
