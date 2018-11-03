@@ -63,3 +63,17 @@ func TestGcd(t *testing.T) {
 	}
 
 }
+
+func BenchmarkGcd(b *testing.B) {
+	input:=map[int]int{2:4,1:10,12:18}
+	//result:=[]int{2,1,6}
+	//j:=0
+	b.ResetTimer()
+	for k:=0;k<b.N ;k++  {
+		for x,v:=range input  {
+			Gcd(x,v)
+		}
+
+	}
+
+}
