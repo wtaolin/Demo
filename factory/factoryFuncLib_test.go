@@ -77,3 +77,9 @@ func BenchmarkGcd(b *testing.B) {
 	}
 
 }
+
+func TestProps(t *testing.T)  {
+	Demo(func() *person {
+		return NewPerson()
+	})
+}

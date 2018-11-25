@@ -31,5 +31,8 @@ type element struct {
 }
 func main() {
 //	factory.Json2Struct()
-	factory.GenerateSetAndGetMethod()
+	//factory.GenerateSetAndGetMethod()
+
+	queue:=&factory.BufferQueueImp{}
+	factory.TestReflecType(queue)
 	}

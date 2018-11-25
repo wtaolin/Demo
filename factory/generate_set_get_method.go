@@ -1,6 +1,7 @@
 package factory
 
 import (
+	"Demo/role"
 	"fmt"
 	"io/ioutil"
 	log2 "log"
@@ -14,6 +15,9 @@ type person struct {
 	Age int
 }
 
+func NewPerson()*person  {
+	return &person{}
+}
 type uer struct {
 	Aa int
 	Bb string
@@ -47,4 +51,11 @@ func GenerateSetAndGetMethod() {
 		s+=sub
 	}
 	ioutil.WriteFile(path + "/Generate.go",[]byte(s),0777)
+}
+
+func TestReflecType( queue role.BufferQueue){
+	roleType:=reflect.TypeOf(queue)
+	fmt.Printf("%#v \n",roleType)
+	fmt.Printf("%#v \n",roleType.String())
+	//fmt.Printf("%#v \n",roleType.Field(0).Name)
 }
