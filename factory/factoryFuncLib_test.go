@@ -88,10 +88,10 @@ var maxMultiplySubSequence = []struct {
 	in  []int
 	out int
 }{
-	{
-		in:  []int{-1, 0, -1},
-		out: 0,
-	},
+	//{
+	//	in:  []int{-1, 0, -1},
+	//	out: 0,
+	//},
 	{
 		in:  []int{1, 2, -1, 3, 4},
 		out: 12,
@@ -104,12 +104,35 @@ var maxMultiplySubSequence = []struct {
 		in:[]int{0},
 		out:0,
 	},
+	{
+		in:[]int{2,5,-1,3,-10},
+		out:300,
+	},
 }
 
 func TestMaxMultiplySubSequence(t *testing.T) {
 	for _, tt := range maxMultiplySubSequence {
 		if out := MaxMultiplySubSequence(tt.in); !reflect.DeepEqual(tt.out, out) {
 			t.Logf("\n expect[%+v] \n actual[%+v] \n", tt.out, out)
+		}
+	}
+}
+
+
+var maxCoins=[]struct{
+	in []int
+	out int
+}{
+	{
+		in:[]int{3,1,5,8},
+		out:167,
+	},
+}
+
+func TestMaxCoins(t *testing.T)  {
+	for _,tt:=range maxCoins  {
+		if out:=MaxCoins(tt.in);!reflect.DeepEqual(out,tt.out) {
+			t.Logf("\n expect[%+v] \n actual[%+v] \n")
 		}
 	}
 }

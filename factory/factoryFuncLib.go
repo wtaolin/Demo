@@ -285,15 +285,38 @@ func MaxMultiplySubSequence(nums []int) int {
 	for i := 0; i < len(nums); i++ {
 		tmp := nums[i]
 		for j := i + 1; j < len(nums); j++ {
-			if tmp < tmp*nums[j] {
 				tmp = tmp * nums[j]
-			} else {
-				break
-			}
 		}
 		if res < tmp {
 			res = tmp
 		}
 	}
 	return res
+}
+
+//戳气球
+func MaxCoins(nums []int) int {
+	nums=append(nums,1)
+	iNums := append([]int{1}, nums...,)
+
+	dp := make([][]int, len(iNums))
+	for i := range(dp){
+		dp[i] = make([]int, len(iNums))
+	}
+
+	lens := len(iNums)
+	for len := 2; len < lens; len++ {
+		for left := 0; left +len < lens; left++ {
+			max := 0
+			right := left + len
+			for i := left + 1; i < right; i++ {
+				temp := iNums[left] * iNums[i] * iNums[right] + dp[left][i] + dp[i][right]
+				if temp > max {
+					max = temp
+					dp[left][right] = temp
+				}
+			}
+		}
+	}
+	return dp[0][lens-1]
 }

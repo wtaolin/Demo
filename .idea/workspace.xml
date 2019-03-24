@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1409cf8d-45cf-4eee-9d67-8b5b861d3a25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/factory/factoryFuncLib.go" afterPath="$PROJECT_DIR$/factory/factoryFuncLib.go" />
       <change beforePath="$PROJECT_DIR$/factory/factoryFuncLib_test.go" afterPath="$PROJECT_DIR$/factory/factoryFuncLib_test.go" />
-      <change beforePath="$PROJECT_DIR$/factory/type_func_lib.go" afterPath="$PROJECT_DIR$/factory/type_func_lib.go" />
-      <change beforePath="$PROJECT_DIR$/main/main.go" afterPath="$PROJECT_DIR$/main/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,21 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factoryFuncLib.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="factoryFuncLib.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/factory/factoryFuncLib.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="289" column="20" lean-forward="true" selection-start-line="289" selection-start-column="20" selection-end-line="289" selection-end-column="20" />
+            <state relative-caret-position="-533">
+              <caret line="279" column="1" lean-forward="true" selection-start-line="279" selection-start-column="1" selection-end-line="279" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factoryFuncLib_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="factoryFuncLib_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/factory/factoryFuncLib_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding>
                 <element signature="e#17#56#0" expanded="true" />
               </folding>
@@ -169,7 +166,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -243,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestMaxMultiplySubSequence in factoryFuncLib_test.go">
+  <component name="RunManager" selected="Go Test.TestMaxCoins in factoryFuncLib_test.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Demo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -271,16 +268,16 @@
       <package value="Go_test/first" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="BenchmarkGcd in Demo/factory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestMaxCoins in factoryFuncLib_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Demo" />
       <working_directory value="$PROJECT_DIR$/factory" />
       <go_parameters value="-i" />
-      <framework value="gobench" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="Demo/factory" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkGcd$" />
+      <pattern value="^TestMaxCoins$" />
     </configuration>
     <configuration name="TestMaxMultiplySubSequence in factoryFuncLib_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Demo" />
@@ -317,17 +314,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build generate_set_get_method.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.BenchmarkGcd in Demo/factory" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestProps in Demo/factory" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestMaxMultiplySubSequence in factoryFuncLib_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestProps in Demo/factory" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestMaxMultiplySubSequence in factoryFuncLib_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestMaxCoins in factoryFuncLib_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestMaxMultiplySubSequence in factoryFuncLib_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestProps in Demo/factory" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build generate_set_get_method.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.BenchmarkGcd in Demo/factory" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestMaxCoins in factoryFuncLib_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestMaxMultiplySubSequence in factoryFuncLib_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestProps in Demo/factory" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build generate_set_get_method.go" />
       </list>
     </recent_temporary>
   </component>
@@ -335,23 +332,11 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="BenchmarkGcd_in_Demo_factory - 2018.11.03 at 12h 43m 45s.xml">
-      <configuration name="BenchmarkGcd in Demo/factory" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMaxCoins_in_factoryFuncLib_test_go - 2019.03.24 at 21h 56m 26s.xml">
+      <configuration name="TestMaxCoins in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkGcd_in_Demo_factory - 2018.11.03 at 12h 53m 10s.xml">
-      <configuration name="BenchmarkGcd in Demo/factory" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BenchmarkGcd_in_Demo_factory - 2018.11.03 at 12h 53m 22s.xml">
-      <configuration name="BenchmarkGcd in Demo/factory" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BenchmarkGcd_in_Demo_factory - 2018.11.03 at 12h 55m 54s.xml">
-      <configuration name="BenchmarkGcd in Demo/factory" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGcd_in_Demo_factory - 2018.11.03 at 11h 33m 20s.xml">
-      <configuration name="TestGcd in Demo/factory" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGcd_in_Demo_factory - 2018.11.03 at 11h 34m 11s.xml">
-      <configuration name="TestGcd in Demo/factory" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMaxCoins_in_factoryFuncLib_test_go - 2019.03.24 at 22h 07m 49s.xml">
+      <configuration name="TestMaxCoins in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestMaxMultiplySubSequence_in_factoryFuncLib_test_go - 2019.03.24 at 12h 52m 08s.xml">
       <configuration name="TestMaxMultiplySubSequence in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
@@ -365,6 +350,18 @@
     <history-entry file="TestMaxMultiplySubSequence_in_factoryFuncLib_test_go - 2019.03.24 at 12h 58m 53s.xml">
       <configuration name="TestMaxMultiplySubSequence in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestMaxMultiplySubSequence_in_factoryFuncLib_test_go - 2019.03.24 at 21h 15m 58s.xml">
+      <configuration name="TestMaxMultiplySubSequence in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxMultiplySubSequence_in_factoryFuncLib_test_go - 2019.03.24 at 21h 18m 43s.xml">
+      <configuration name="TestMaxMultiplySubSequence in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxMultiplySubSequence_in_factoryFuncLib_test_go - 2019.03.24 at 21h 23m 08s.xml">
+      <configuration name="TestMaxMultiplySubSequence in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMaxMultiplySubSequence_in_factoryFuncLib_test_go - 2019.03.24 at 21h 26m 00s.xml">
+      <configuration name="TestMaxMultiplySubSequence in factoryFuncLib_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,18 +373,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43740094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43740094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29787233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3977813" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -406,7 +404,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/factory/factoryFuncLib_test.go</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -761,21 +769,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/factoryFuncLib.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="289" column="20" lean-forward="true" selection-start-line="289" selection-start-column="20" selection-end-line="289" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/factory/factoryFuncLib_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
             <element signature="e#17#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/factoryFuncLib.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="279" column="1" lean-forward="true" selection-start-line="279" selection-start-column="1" selection-end-line="279" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
