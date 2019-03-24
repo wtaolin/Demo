@@ -9,6 +9,7 @@ import (
 	"os"
 	"sort"
 	"time"
+	"math"
 )
 
 type (
@@ -44,7 +45,7 @@ func test1(aa hh) {
 }
 
 const (
-	Monday = iota + 1
+	Monday    = iota + 1
 	Tuesday
 	Wednesday
 	Thursday
@@ -255,25 +256,44 @@ func longestPalindrome(s string) string {
 
 //leetcode 858 mirrorReflection
 func MirrorReflection(p int, q int) int {
-	g:=Gcd(q,p)
-	p/=g
-	p%=2
-	q/=g
-	q%=2
-	if p==1&&q==1 {
+	g := Gcd(q, p)
+	p /= g
+	p %= 2
+	q /= g
+	q %= 2
+	if p == 1 && q == 1 {
 		return 1
 	}
-	if p==1 {
+	if p == 1 {
 		return 0
-	}else {
+	} else {
 		return 2
 	}
 }
 
 //最大公约数
-func Gcd(a,b int)int{
-	if a==0 {
+func Gcd(a, b int) int {
+	if a == 0 {
 		return b
 	}
-	return Gcd(b%a,a)
+	return Gcd(b%a, a)
+}
+
+//最大连续乘积子序列
+func MaxMultiplySubSequence(nums []int) int {
+	res := math.MinInt32
+	for i := 0; i < len(nums); i++ {
+		tmp := nums[i]
+		for j := i + 1; j < len(nums); j++ {
+			if tmp < tmp*nums[j] {
+				tmp = tmp * nums[j]
+			} else {
+				break
+			}
+		}
+		if res < tmp {
+			res = tmp
+		}
+	}
+	return res
 }

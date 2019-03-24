@@ -1,6 +1,7 @@
 package factory
 
 import (
+	"Demo/role"
 	"fmt"
 )
 
@@ -10,3 +11,7 @@ func Demo(pro  props)  {
 	fmt.Printf("pro :%#v \n ",pro)
 }
 
+
+type Tt struct {
+	Buffer role.BufferQueue
+}

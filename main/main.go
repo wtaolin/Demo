@@ -31,12 +31,39 @@ const (
 )
 
 type element struct {
-	a int
-	b int
+	a []int
+	b []string
 }
 
-func main() {
+func add(n []element) {
+	num := 10
+	for _, v := range n {
+		for i := 0; i < num; i++ {
+			v.a = append(v.a, i)
+		}
+	}
+}
 
+
+
+func main() {
+}
+
+func TestSlice() {
+	n := []element{
+		{
+			a: make([]int, 2, 100),
+		},
+		{
+			a: make([]int, 2, 100),
+		},
+	}
+	add(n)
+	for _, v := range n {
+		for _, i := range v.a {
+			fmt.Printf("%d ", i)
+		}
+	}
 }
 
 func httpGetTest() {
